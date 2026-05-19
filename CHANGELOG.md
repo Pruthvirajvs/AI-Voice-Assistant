@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added 6 major portfolio project blueprints for future full stack, AI, cybersecurity, and analytics projects.
 - Added resume-based project background and developer profile documentation.
 - Added the real Python desktop voice assistant as `assistant.py`.
 - Added Python dependencies in `requirements.txt`.

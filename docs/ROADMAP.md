@@ -1,6 +1,6 @@
 # Roadmap
 
-This roadmap turns the current assistant into a more reliable and production-quality desktop AI project.
+This roadmap turns the current assistant into a more reliable and production-quality desktop AI project, then expands the portfolio with larger full stack and AI projects.
 
 ## Phase 1: Stability
 
@@ -44,3 +44,14 @@ This roadmap turns the current assistant into a more reliable and production-qua
 - Add CI checks for Python syntax and repo health
 - Add screenshots and a demo video to the README
 - Package the assistant as a Windows executable
+
+## Phase 7: Major Portfolio Expansion
+
+- Build AI Voice Assistant Pro with memory, settings, and safer tool execution
+- Build Smart Student Attendance Management System using Java, Spring Boot, and MySQL
+- Build E-Commerce Product Management Platform with admin and customer workflows
+- Build Cybersecurity Log Analyzer Dashboard using Python, Flask, and charts
+- Build Personal Portfolio and Resume Builder with PDF export
+- Build Smart Expense Tracker with analytics and budget alerts
+
+See [MAJOR_PROJECTS.md](MAJOR_PROJECTS.md) for detailed project blueprints.
