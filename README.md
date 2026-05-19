@@ -35,6 +35,19 @@ The goal is to demonstrate problem-solving, application development, and user-fo
 - **APIs:** OpenWeather, WolframAlpha, Wikipedia
 - **Frontend showcase:** HTML, CSS, JavaScript
 
+## Major Project Blueprints
+
+This repository also includes 6 larger portfolio project blueprints that can be built next to strengthen a software engineering profile:
+
+1. AI Voice Assistant Pro
+2. Smart Student Attendance Management System
+3. E-Commerce Product Management Platform
+4. Cybersecurity Log Analyzer Dashboard
+5. Personal Portfolio and Resume Builder
+6. Smart Expense Tracker with Analytics
+
+See [docs/MAJOR_PROJECTS.md](docs/MAJOR_PROJECTS.md) for feature plans, suggested tech stacks, and portfolio positioning.
+
 ## Project Structure
 
 | File | Purpose |
@@ -46,6 +59,7 @@ The goal is to demonstrate problem-solving, application development, and user-fo
 | `styles.css` | Showcase page styling |
 | `script.js` | Showcase page demo interaction |
 | `docs/COMMANDS.md` | Supported voice commands |
+| `docs/MAJOR_PROJECTS.md` | Larger portfolio project blueprints |
 | `docs/PROFILE.md` | Developer and resume-based project context |
 | `docs/ROADMAP.md` | Future improvement roadmap |
 
