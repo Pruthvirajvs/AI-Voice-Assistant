@@ -22,4 +22,7 @@ jobs:
 
       - name: Check for unresolved placeholders
         run: |
-          ! grep -R "TODO\|FIXME\|YOUR_API_KEY" -n README.md index.html styles.css script.js docs || true
+          if grep -R "TODO\|FIXME\|YOUR_API_KEY" -n README.md index.html styles.css script.js docs; then
+            echo "Unresolved placeholder found."
+            exit 1
+          fi
