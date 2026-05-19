@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AI Voice Assistant project showcase with voice-first workflow, automation, and assistant UI.">
+    <title>AI Voice Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="AI Voice Assistant home">
+        <span class="brand-mark">AI</span>
+        <span>Voice Assistant</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#roadmap">Roadmap</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Voice-first AI automation</p>
+          <h1 id="hero-title">AI Voice Assistant</h1>
+          <p class="hero-text">A clean project foundation for a desktop or browser assistant that listens, understands, acts, and responds naturally.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#demo">View Demo</a>
+            <a class="button secondary" href="docs/ROADMAP.md">Roadmap</a>
+          </div>
+        </div>
+
+        <section class="assistant-panel" id="demo" aria-label="Assistant demo panel">
+          <div class="panel-header">
+            <div>
+              <p class="panel-label">Assistant status</p>
+              <h2>Ready to listen</h2>
+            </div>
+            <span class="status-dot" aria-hidden="true"></span>
+          </div>
+
+          <div class="voice-meter" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+
+          <div class="conversation" id="conversation" aria-live="polite">
+            <article class="message user">Plan my study schedule for Python, AI, and web development.</article>
+            <article class="message assistant">I can break that into daily focus blocks, revision windows, and project milestones.</article>
+          </div>
+
+          <div class="command-row">
+            <input id="commandInput" type="text" value="Summarize today's top tasks" aria-label="Demo command">
+            <button id="sendCommand" type="button">Run</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="section" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="features-title">Built for practical voice workflows</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Speech Input</h3>
+            <p>Capture spoken commands and convert them into structured text for reasoning.</p>
+          </article>
+          <article class="feature-card">
+            <h3>AI Reasoning</h3>
+            <p>Use an LLM to understand intent, answer questions, and decide the next action.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Automation Tools</h3>
+            <p>Connect safe tools for reminders, notes, search, app actions, and productivity tasks.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Voice Output</h3>
+            <p>Respond with natural text-to-speech so the assistant feels hands-free and fast.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="workflow" id="workflow" aria-labelledby="workflow-title">
+        <div>
+          <p class="eyebrow">System flow</p>
+          <h2 id="workflow-title">From voice command to completed task</h2>
+          <p>The assistant should keep the voice loop simple: listen, understand, execute safely, and speak back with a useful result.</p>
+        </div>
+        <ol class="steps">
+          <li><span>01</span>Listen through microphone input</li>
+          <li><span>02</span>Transcribe speech into text</li>
+          <li><span>03</span>Reason with an AI model</li>
+          <li><span>04</span>Run approved tools</li>
+          <li><span>05</span>Reply with speech output</li>
+        </ol>
+      </section>
+
+      <section class="section roadmap" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="section-heading">
+          <p class="eyebrow">Next build phase</p>
+          <h2 id="roadmap-title">Production roadmap</h2>
+        </div>
+        <div class="roadmap-grid">
+          <article>
+            <strong>Phase 1</strong>
+            <p>Microphone capture, command UI, and browser-based speech recognition prototype.</p>
+          </article>
+          <article>
+            <strong>Phase 2</strong>
+            <p>LLM integration, prompt design, task memory, and response formatting.</p>
+          </article>
+          <article>
+            <strong>Phase 3</strong>
+            <p>Tool execution, permission checks, error handling, and deployable documentation.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built by Pruthvirajvs. Designed as a professional foundation for an AI voice assistant project.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
