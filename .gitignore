@@ -3,6 +3,12 @@
 .env.*
 !.env.example
 
+# Local assistant data
+data.txt
+note.txt
+img.jpg
+Assistant Screenshots/
+
 # Dependencies
 node_modules/
 .venv/

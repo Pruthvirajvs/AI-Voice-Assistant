@@ -1,4 +1,4 @@
-name: Validate Static Project
+name: Validate Project
 
 on:
   push:
@@ -12,17 +12,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Check required files
         run: |
           test -f README.md
+          test -f assistant.py
+          test -f requirements.txt
           test -f index.html
           test -f styles.css
           test -f script.js
           test -f LICENSE
 
+      - name: Compile Python source
+        run: python -m py_compile assistant.py
+
       - name: Check for unresolved placeholders
         run: |
-          if grep -R "TODO\|FIXME\|YOUR_API_KEY" -n README.md index.html styles.css script.js docs; then
+          if grep -R "TODO\|FIXME\|YOUR_API_KEY" -n README.md assistant.py index.html styles.css script.js docs; then
             echo "Unresolved placeholder found."
             exit 1
           fi
