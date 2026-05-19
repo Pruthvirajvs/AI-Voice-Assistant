@@ -4,6 +4,12 @@ A Windows desktop voice assistant built with Python. It listens to voice command
 
 The repository also includes a polished static showcase page for presenting the project professionally on GitHub.
 
+## Live Showcase
+
+After GitHub Pages is enabled for this repository, the static project showcase will be available at:
+
+[https://pruthvirajvs.github.io/AI-Voice-Assistant/](https://pruthvirajvs.github.io/AI-Voice-Assistant/)
+
 ## Project Background
 
 This project was developed as an academic Python application by Pruthviraj, an MCA graduate with hands-on experience in Python, Java, MySQL, and web technologies. The assistant focuses on practical Windows automation through speech commands, combining voice recognition, text-to-speech, browser control, file actions, calculations, notes, weather updates, and desktop utilities.
@@ -48,6 +54,18 @@ This repository also includes 6 larger portfolio project blueprints that can be 
 
 See [docs/MAJOR_PROJECTS.md](docs/MAJOR_PROJECTS.md) for feature plans, suggested tech stacks, and portfolio positioning.
 
+## Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Commands](docs/COMMANDS.md) | Supported voice commands |
+| [Troubleshooting](docs/TROUBLESHOOTING.md) | Windows setup, microphone, PyAudio, and API key fixes |
+| [Screenshots and Demo Guide](docs/SCREENSHOTS.md) | What to capture for README screenshots and demo video |
+| [Developer Profile](docs/PROFILE.md) | Resume-based developer and project context |
+| [Major Project Blueprints](docs/MAJOR_PROJECTS.md) | Larger projects to build next |
+| [Roadmap](docs/ROADMAP.md) | Improvement plan for the assistant and portfolio |
+| [GitHub Profile README Template](docs/GITHUB_PROFILE_README.md) | Template for the special profile README repository |
+
 ## Project Structure
 
 | File | Purpose |
@@ -58,10 +76,8 @@ See [docs/MAJOR_PROJECTS.md](docs/MAJOR_PROJECTS.md) for feature plans, suggeste
 | `index.html` | Static project showcase page |
 | `styles.css` | Showcase page styling |
 | `script.js` | Showcase page demo interaction |
-| `docs/COMMANDS.md` | Supported voice commands |
-| `docs/MAJOR_PROJECTS.md` | Larger portfolio project blueprints |
-| `docs/PROFILE.md` | Developer and resume-based project context |
-| `docs/ROADMAP.md` | Future improvement roadmap |
+| `.github/workflows/validate.yml` | Project validation workflow |
+| `.github/workflows/pages.yml` | GitHub Pages deployment workflow |
 
 ## Requirements
 
@@ -106,6 +122,10 @@ write a note
 calculator
 ```
 
+## Screenshots and Demo
+
+Screenshots and a short demo video should be added next after recording the application on Windows. See [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) for the recommended capture list and file names.
+
 ## Developer Profile
 
 Pruthviraj is an MCA graduate with a strong foundation in Python, Java, MySQL, HTML, CSS, JavaScript, object-oriented programming, and problem solving. He has completed a Java Full Stack Development internship and has experience building academic and practical software projects.
@@ -122,7 +142,7 @@ Potentially sensitive commands like shutdown and restart ask for confirmation be
 
 ## Showcase Page
 
-Open `index.html` in a browser to view the professional project presentation page.
+Open `index.html` in a browser to view the professional project presentation page. The GitHub Pages workflow will publish it after Pages is enabled in repository settings.
 
 ## License
 
