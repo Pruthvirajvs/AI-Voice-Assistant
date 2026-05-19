@@ -1,0 +1,28 @@
+name: Validate Static Project
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -f README.md
+          test -f index.html
+          test -f styles.css
+          test -f script.js
+          test -f LICENSE
+
+      - name: Check for unresolved placeholders
+        run: |
+          if grep -R "TODO\|FIXME\|YOUR_API_KEY" -n README.md index.html styles.css script.js docs; then
+            echo "Unresolved placeholder found."
+            exit 1
+          fi
