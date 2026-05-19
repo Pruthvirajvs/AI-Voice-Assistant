@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added resume-based project background and developer profile documentation.
 - Added the real Python desktop voice assistant as `assistant.py`.
 - Added Python dependencies in `requirements.txt`.
 - Added safe configuration documentation in `.env.example`.

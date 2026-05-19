@@ -4,6 +4,12 @@ A Windows desktop voice assistant built with Python. It listens to voice command
 
 The repository also includes a polished static showcase page for presenting the project professionally on GitHub.
 
+## Project Background
+
+This project was developed as an academic Python application by Pruthviraj, an MCA graduate with hands-on experience in Python, Java, MySQL, and web technologies. The assistant focuses on practical Windows automation through speech commands, combining voice recognition, text-to-speech, browser control, file actions, calculations, notes, weather updates, and desktop utilities.
+
+The goal is to demonstrate problem-solving, application development, and user-focused automation skills in a complete, recruiter-friendly GitHub project.
+
 ## Features
 
 - Voice input using `SpeechRecognition`
@@ -19,6 +25,16 @@ The repository also includes a polished static showcase page for presenting the 
 - Windows actions such as lock, sleep, shutdown, restart, and recycle bin cleanup
 - Clean Tkinter desktop interface
 
+## Tech Stack
+
+- **Language:** Python
+- **UI:** Tkinter
+- **Voice input:** SpeechRecognition
+- **Speech output:** pyttsx3
+- **Automation:** os, subprocess, webbrowser, pyautogui, winshell
+- **APIs:** OpenWeather, WolframAlpha, Wikipedia
+- **Frontend showcase:** HTML, CSS, JavaScript
+
 ## Project Structure
 
 | File | Purpose |
@@ -30,6 +46,7 @@ The repository also includes a polished static showcase page for presenting the 
 | `styles.css` | Showcase page styling |
 | `script.js` | Showcase page demo interaction |
 | `docs/COMMANDS.md` | Supported voice commands |
+| `docs/PROFILE.md` | Developer and resume-based project context |
 | `docs/ROADMAP.md` | Future improvement roadmap |
 
 ## Requirements
@@ -74,6 +91,14 @@ take screenshot
 write a note
 calculator
 ```
+
+## Developer Profile
+
+Pruthviraj is an MCA graduate with a strong foundation in Python, Java, MySQL, HTML, CSS, JavaScript, object-oriented programming, and problem solving. He has completed a Java Full Stack Development internship and has experience building academic and practical software projects.
+
+More profile context is available in [docs/PROFILE.md](docs/PROFILE.md).
+
+LinkedIn: [Pruthvi Raj](https://www.linkedin.com/in/pruthvi-raj-344aa8254)
 
 ## Security Notes
 
