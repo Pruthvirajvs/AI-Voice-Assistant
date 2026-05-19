@@ -1,30 +1,36 @@
 # Roadmap
 
-This roadmap turns the current static showcase into a working AI voice assistant.
+This roadmap turns the current assistant into a more reliable and production-quality desktop AI project.
 
-## Phase 1: Browser Voice Prototype
+## Phase 1: Stability
 
-- Add microphone permission handling
-- Capture audio from the browser
-- Use Web Speech API or a speech-to-text provider
-- Display live transcript text
-- Add clear error states for unsupported browsers and denied permissions
+- Add automated syntax checks for Python and static files
+- Improve optional dependency handling
+- Add better microphone error messages
+- Add settings for assistant voice, speech speed, and language
 
-## Phase 2: AI Reasoning Layer
+## Phase 2: Configuration
 
-- Add a backend service for LLM requests
+- Load `.env` files automatically for local development
+- Add a settings screen for folders and API keys
+- Store notes and memories in a dedicated `data/` folder
+- Add export/import support for user settings
+
+## Phase 3: AI Reasoning Layer
+
+- Add an LLM backend for open-ended conversation
 - Store prompts and response rules in versioned files
 - Add guardrails for unsafe commands
 - Return structured assistant actions instead of plain text only
 
-## Phase 3: Speech Output
+## Phase 4: Speech Output
 
-- Add text-to-speech playback
-- Provide mute, replay, and voice selection controls
+- Add voice selection controls
+- Add mute and replay controls
 - Clean response text before speaking
 - Add accessibility support for users who prefer text-only mode
 
-## Phase 4: Automation Tools
+## Phase 5: Automation Tools
 
 - Notes and reminders
 - Web search summaries
@@ -32,10 +38,9 @@ This roadmap turns the current static showcase into a working AI voice assistant
 - Calendar and task integrations
 - Explicit approval step before sensitive actions
 
-## Phase 5: Production Quality
+## Phase 6: Production Quality
 
-- Add tests for command parsing and tool routing
-- Add CI checks
-- Document environment variables
-- Add deployment instructions
-- Create screenshots and demo video for the README
+- Add unit tests for command parsing and tool routing
+- Add CI checks for Python syntax and repo health
+- Add screenshots and a demo video to the README
+- Package the assistant as a Windows executable
